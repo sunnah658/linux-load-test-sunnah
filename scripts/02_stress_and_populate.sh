@@ -1,4 +1,6 @@
-SVC="${SVC_NAME:-bgdsvc_shawon}"
+#!/bin/bash
+
+SVC="${SVC_NAME:-bgdsvc_sunnah658}"
 TARGET_DIR="/mnt/${SVC}_tmp"
 
 case "$1" in
